@@ -1,0 +1,64 @@
+:root {
+    --basic: #7e6d6d;
+    --main: #d2d6e0;
+}
+
+.nav-menu-color,
+.containe {
+    background-color: var(--basic)!important;
+}
+
+.comp {
+    display: grid;
+    gap: 12px 6px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.comp svg {
+    width: 170px!important;
+    height: 80px!important;
+}
+
+.last-jop {
+    background-color: #cfcfcf26;
+}
+
+.last-offer {
+    color: var(--basic);
+    font-weight: bold;
+}
+
+.last-offer footer h2 {
+    color: var(--basic);
+}
+
+footer .bg-light {
+    background: #7e6d6dd1 !important;
+    color: #c5bdbd;
+}
+
+@media(min-width:768px) {
+    .comp {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media(min-width:992px) {
+    .comp {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media(min-width:1200px) {
+    .comp {
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
+
+
+/*****************/
+
+.page-section {
+    margin-top: 12vh;
+}
