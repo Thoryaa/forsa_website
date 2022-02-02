@@ -62,7 +62,7 @@
 }
 
 footer .bg-light {
-    background: #7e6d6dd1 !important;
+    background: var(--basic) !important;
     color: #c5bdbd;
 }
 
