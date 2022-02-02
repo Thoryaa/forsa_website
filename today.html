@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input type="text" name="" id="searchkey">
+    </div>
+    <table id="searchtbl">
+        <thead>
+            <tr>
+                <td>name</td>
+                <td>email</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>naif</td>
+                <td>naif@gmail.com</td>
+            </tr>
+            <tr>
+                <td>emran</td>
+                <td>emran@gmail.com</td>
+            </tr>
+            <tr>
+                <td>ahlam</td>
+                <td>ahlam@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#searchkey').on('keyup', function() {
+                alert(w);
+                $('#searchtbl tr').filter(function() {
+                    alert($('#searchkey tr').text());
+
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

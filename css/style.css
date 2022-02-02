@@ -1,11 +1,39 @@
 :root {
-    --basic: #7e6d6d;
+    --basic: #1572A1;
+    --basic2: #1572a1cc;
+    --basic3: #9AD0EC;
     --main: #d2d6e0;
 }
 
 .nav-menu-color,
 .containe {
     background-color: var(--basic)!important;
+}
+
+.date-posted {
+    background-color: #FBF8F1;
+    color: var(--basic);
+}
+
+.howtoapplay {
+    background-color: var(--basic2);
+}
+
+.howtoapplay button {
+    background-color: var(--basic);
+}
+
+#collapseFive {
+    background-color: var(--basic3);
+}
+
+.fav {
+    fill: gold;
+    cursor: pointer;
+}
+
+.fav:active {
+    fill: var(--basic)
 }
 
 .comp {
