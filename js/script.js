@@ -1,16 +1,18 @@
 $(document).ready(function() {
-    $('#modal-change-personal').click(
-        function() {
-            $('fname-modal').text('ooo');
+
+    $("#search-key").on('keyup', function() {
+        var word = $('#key-search').val().toLowerCase();
+        $(".company-name").filter(function() {
+
+
+            $(this).toggle($(this).text().toLowerCase().indexOf(word) > -1);
 
 
 
-        }
-    );
 
-    $('#download-cv').click(function(e) {
-        e.preventDefault();
-        window.location.href = 'simple.pdf';
+        });
+
+
     });
 
 });
