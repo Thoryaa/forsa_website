@@ -31,8 +31,12 @@
 </head>
 
 <body>
-    <button class="btn btn-light " id='download-cv' style=' position:fixed;top:12px; z-index:1;'> Download file</button>
+    <div class="">
+        <button class="btn btn-light " id='rm-cv'> remove</button>
+        <button class="btn btn-light " id='rm-cv'> update</button>
 
+
+    </div>
     <div id="cv">
 
 
@@ -267,17 +271,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
-    <script>
-        $(document).on('click', '#download-cv', function() {
-            let pdf = new jsPDF();
-            let section = $('#cv');
-            let page = function() {
-                pdf.save('pagename.pdf');
 
-            };
-            pdf.addHTML(section, page);
-        });
-    </script>
 
 </body>
 

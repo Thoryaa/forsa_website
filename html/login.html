@@ -11,26 +11,23 @@
 <body>
     <div class="w-75  text-center">
 
-        <div class="container text-capitalize">
-            <h2>log in</h2>
-            <form action="">
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email address</label>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <div class="container bootstrap snippets bootdey">
+            <div class="lc-block col-md-4 col-md-offset-4 toggled" id="l-login">
+                <div class="lcb-float"><i class="fa fa-users"></i></div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username">
                 </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Password</label>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
                 </div>
-                <div class=" row justify-content-around ">
-                    <div>
-                        <input type="checkbox" id='remmber-me'>
-                        <label for="remmber-me ">remmber me</label>
-                    </div>
-                    <span><a href="#" class="text-decoration-none"> forget password?</a></span>
-                </div>
-                <button class=" btn btn-primary  block"> log in</button>
-            </form>
+                <div class="clearfix"></div>
+                <a href="" class="btn btn-block btn-primary btn-float m-t-25">Sign In</a>
+                <ul class="login-navigation">
+                    <li data-block="#l-register" class="bg-green">Register</li>
+                    <li data-block="#l-forget-password" class="bg-orange">Forgot Password?</li>
+                </ul>
+            </div>
         </div>
     </div>
     <script src="../bootstrap-5.1.3/dist/js/bootstrap.min.js "></script>

@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 :root {
     --basic: #1572A1;
     --basic2: #1572a1cc;
@@ -89,4 +93,8 @@ footer .bg-light {
 
 .page-section {
     margin-top: 12vh;
+}
+
+.active {
+    color: red;
 }

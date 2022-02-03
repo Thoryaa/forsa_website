@@ -1,0 +1,273 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+    <style>
+         :root {
+            --basic: #1572A1;
+            --basic2: #1572a1cc;
+            --basic3: #9AD0EC;
+            --main: #d2d6e0;
+        }
+        
+        body {
+            color: var(--basic);
+            background: var(--basic);
+        }
+        
+        .account-settings .user-profile .user-avatar img {
+            width: 90px;
+            height: 90px;
+        }
+        
+        .card2-nav {
+            height: auto!important;
+        }
+        
+        .card {
+            background: var(--main);
+        }
+        
+        .card2-nav {
+            position: fixed;
+            margin-bottom: 12vh;
+            height: auto;
+            z-index: 1;
+            width: 95%!important;
+        }
+        
+        .links ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center!important;
+            padding-left: 0px;
+        }
+        
+        .links li {
+            list-style: none;
+            line-height: 44px;
+            cursor: pointer;
+            padding-left: 2px;
+            padding-right: 2px;
+        }
+        
+        .links li:hover,
+        .link li:active {
+            background-color: var(--basic3);
+            border-radius: 10px;
+        }
+        
+        .links a {
+            text-decoration: none;
+            color: var(--basic2);
+        }
+        
+        .card3-nav {
+            margin-top: 50vh;
+        }
+        
+        .nice-btn {
+            color: #d2d6e0!important;
+            background-color: #1572a1 !important;
+        }
+        
+        .nice-btn:active {
+            color: #1572a1!important;
+            background-color: #d2d6e0!important;
+        }
+        
+        @media ( min-width:992px) {
+            .links ul {
+                display: block;
+                text-align: left!important;
+            }
+            .links i {
+                border-bottom: 1px solid var(--bs-gray-300);
+            }
+            .card3-nav {
+                margin-top: 2vh;
+            }
+            .card2-nav {
+                position: static;
+                margin-bottom: 2vh;
+                height: 100%!important;
+                width: 100%!important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row gutters h-100 ">
+            <div class=" col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 ">
+                <div class="card card2-nav h-100 ">
+                    <div class="card-body ">
+                        <div class="account-settings ">
+                            <div class="user-profile text-center " style="">
+                                <div class="user-avatar ">
+                                    <img src="../assest/1643557611740.jpg " alt=" " class=' rounded-circle'>
+                                </div>
+                                <div>
+                                    <h5 class="user-name mb-0 mt-3 ">Thorya Abdu</h5>
+                                    <h6 class="user-desc text-muted mt-0 " style='font-size: 14px;'>web developer</h6>
+                                </div>
+                            </div>
+                            <div class="links mt-5 ">
+                                <ul class="text-capitalize text-start mt-5 ">
+                                    <li>
+                                        <a href="dashboard.html ">personal</a>
+                                    </li>
+                                    <li>
+                                        <a href="education.html ">education</a>
+                                    </li>
+                                    <li>
+                                        <a href="experinces.html ">experince</a>
+                                    </li>
+                                    <li>
+                                        <a href="skills.html ">skills</a>
+                                    </li>
+                                    <li>
+                                        <a href="course.html ">course</a>
+                                    </li>
+                                    <li>
+                                        <a href="../index.html ">logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 mt-5  " style="background-color: #d2d6e0;">
+                <div class="d-grid gap-3">
+                    <h6 class="mb-3 ">Personal Detail</h6>
+                    <div class=" img col-12 ">
+                        <img src="" alt="../assest/svg/u" class="rounded-circle " width="150 ">
+
+                        <input type="file" name=" " id="file-im " accept="image/*">
+                        <label for="file-im"></label>
+                        <a href="">
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg style='height:20px!important;' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 473 473" style="enable-background:new 0 0 473 473;" xml:space="preserve">
+                            <g>
+                                <path  d="M324.285,215.015V128h20V38h-98.384V0H132.669v38H34.285v90h20v305h161.523c23.578,24.635,56.766,40,93.477,40
+                                    c71.368,0,129.43-58.062,129.43-129.43C438.715,277.276,388.612,222.474,324.285,215.015z M294.285,215.015
+                                    c-18.052,2.093-34.982,7.911-50,16.669V128h50V215.015z M162.669,30h53.232v8h-53.232V30z M64.285,68h250v30h-250V68z M84.285,128
+                                    h50v275h-50V128z M164.285,403V128h50v127.768c-21.356,23.089-34.429,53.946-34.429,87.802c0,21.411,5.231,41.622,14.475,59.43
+                                    H164.285z M309.285,443c-54.826,0-99.429-44.604-99.429-99.43s44.604-99.429,99.429-99.429s99.43,44.604,99.43,99.429
+                                    S364.111,443,309.285,443z"/>
+                                <polygon points="342.248,289.395 309.285,322.358 276.323,289.395 255.11,310.608 288.073,343.571 255.11,376.533 276.323,397.746 
+                                    309.285,364.783 342.248,397.746 363.461,376.533 330.498,343.571 363.461,310.608 	"/>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            </svg >
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.min.js "></script>
+    <script src="../js/jquery.min.js "></script>
+    <script src="../js/script.js "></script>
+</body>
+
+</html>
+<div class="card">
+    <div class="card-header">
+       First name
+    </div>
+    <div class="card-body">
+     <div class="card-text">
+<div> Thorya Addu</div>
+<div>
+    
+</div>
+     </div>
+    </div>
+</div>  <g>
+            <path  d="M324.285,215.015V128h20V38h-98.384V0H132.669v38H34.285v90h20v305h161.523c23.578,24.635,56.766,40,93.477,40
+                c71.368,0,129.43-58.062,129.43-129.43C438.715,277.276,388.612,222.474,324.285,215.015z M294.285,215.015
+                c-18.052,2.093-34.982,7.911-50,16.669V128h50V215.015z M162.669,30h53.232v8h-53.232V30z M64.285,68h250v30h-250V68z M84.285,128
+                h50v275h-50V128z M164.285,403V128h50v127.768c-21.356,23.089-34.429,53.946-34.429,87.802c0,21.411,5.231,41.622,14.475,59.43
+                H164.285z M309.285,443c-54.826,0-99.429-44.604-99.429-99.43s44.604-99.429,99.429-99.429s99.43,44.604,99.43,99.429
+                S364.111,443,309.285,443z"/>
+            <polygon points="342.248,289.395 309.285,322.358 276.323,289.395 255.11,310.608 288.073,343.571 255.11,376.533 276.323,397.746 
+                309.285,364.783 342.248,397.746 363.461,376.533 330.498,343.571 363.461,310.608 	"/>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        </svg >
+
+    </a>
+    
+</div>
+     </div>
+    </div>
+</div>

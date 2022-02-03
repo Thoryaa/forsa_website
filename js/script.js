@@ -27,10 +27,6 @@ $(document).ready(function() {
         });
     }; */
 
-    $('#l').click(
-        function() {
-            alert($('#dropDownId option:selected').text());
 
-        }
-    );
+
 });
